@@ -590,8 +590,11 @@ header .navbar .navmenu li a:hover {
     font-size: 1.5rem;
     color: #444;
     margin-left:2rem; 
-    cursor: pointer;
+    
  }
 
 
 
+/* git add .
+git commit -m '...added'
+git push */
