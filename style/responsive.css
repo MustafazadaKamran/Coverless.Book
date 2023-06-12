@@ -6,7 +6,6 @@
 
 /* -------------------------------------- */
 
-
 @media(max-width:800px) {
     html {
         font-size: 50%;
@@ -22,6 +21,10 @@
 
     header .navbar .logo img {
         margin-left: 60px;
+    }
+
+    .categories{
+        padding: 3rem 2rem;
     }
 
 
@@ -115,8 +118,11 @@
     
     }
 
+    .contact .logo{
+        width: 30%;
+    }
     .contact .text{
-        width: 60%;
+        width: 70%;
         height: 140px;
         display: flex;
         justify-content: space-evenly;
@@ -135,16 +141,10 @@
     
      .contact .text i{
         font-size: 2rem;
-       color: #444;
-       cursor: pointer;
-       
      }
     
      .contact .text .phone p{
         font-size: 1.5rem;
-        color: #444;
-       
-        cursor: pointer;
      }
     
 
@@ -297,11 +297,25 @@
         margin-left: 7px;
     
     }
-    .contact{
-        margin-bottom: 6.5rem;
-    
+
+
+    .categories .row .categories-text h3 {
+        font-size: 15px;
+        color: #37680d;
+        
     }
     
+    .categories .row .categories-text p {
+        margin-top: 1rem;
+        color:#232323;
+        font-size: 12px; 
+        
+    }
+     
+
+    .contact{
+        margin-bottom: 6.5rem;
+    }
 }
 
 
