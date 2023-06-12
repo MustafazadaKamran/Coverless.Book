@@ -313,6 +313,18 @@ header .navbar .navmenu li a:hover {
 }
 
 
+.categories .row .categories-text h3 {
+    font-size: 18px;
+    
+}
+
+.categories .row .categories-text p {
+    font-size: 15px;
+    color:black;
+    margin-top: 1rem;
+    
+}
+
 .categories .row #book-slider {
     flex: 1 1 42rem;
     text-align: center;
@@ -543,6 +555,7 @@ header .navbar .navmenu li a:hover {
     justify-content: space-around;
     align-items: center;
     margin-top: 3rem;
+    background-color: #c14dd2;
     
     
     
@@ -555,6 +568,7 @@ header .navbar .navmenu li a:hover {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+   
    
 }
 
@@ -581,16 +595,17 @@ header .navbar .navmenu li a:hover {
 
  .contact .text i{
     font-size: 3rem;
-   color: #444;
+  color: black;
    cursor: pointer;
    
  }
 
  .contact .text .phone p{
     font-size: 1.5rem;
-    color: #444;
+    color:black ;
     margin-left:2rem; 
-    
+    cursor: pointer;
+  
  }
 
 
