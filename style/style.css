@@ -139,7 +139,7 @@ header .navbar .navmenu li a:hover {
 }
 
 .main-home .home-text {
-    width: 55%;
+    width: 45%;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -160,12 +160,15 @@ header .navbar .navmenu li a:hover {
     margin-top: 10px;
     margin-bottom: 24px;
     margin-left: 70px;
-
+    color: #232323;
+    font-family: serif;
 }
 
 .main-home .home-text p {
     margin-left: 70px;
     font-size: 16px;
+    color: #444;
+    
 }
 
 .main-home .home-img {
@@ -245,9 +248,16 @@ header .navbar .navmenu li a:hover {
 }
 
 .about .about-text p {
-    color: black;
+    color:#444;
     font-size: 16px;
+    font-family: serif;
 
+}
+
+.about .about-text p a{
+   
+    font-size: 16px;
+    font-family: serif;
 }
 
 .about-icons {
@@ -321,7 +331,8 @@ header .navbar .navmenu li a:hover {
 .categories .row .categories-text p {
     margin-top: 1rem;
     color:#232323;
-    font-size: 15px;   
+    font-size: 14px;   
+    font-family: serif;
 }
 
 .categories .row  .book-slider {
@@ -594,7 +605,7 @@ header .navbar .navmenu li a:hover {
 
  .contact .text i{
     font-size: 3rem;
-  color: #376112;
+   color: #37680d;
    cursor: pointer;
    
  }

@@ -39,7 +39,6 @@
 
     .main-home .home-text h3 {
         font-size: 20px;
-        color: #37680d;
         font-weight: 150;
     }
 
@@ -67,24 +66,19 @@
     .about-icons .icons{
         gap: 1.5rem;
         padding: 2rem 0;
-    
     }
     
     .about-icons .icons i{
         font-size: 3rem;
         color: green;
-    
     }
     
     .about-icons .icons h3{
         font-size: 2rem;
-        color: black;
         padding-bottom:.5rem;
     }
     .about-icons .icons p{
         font-size: 1.2rem;
-        color: black;
-    
     }
 
     .contact{
@@ -102,20 +96,18 @@
     }
     
     .about-icons .icons i{
-        font-size: 2.5rem;
-        color: green;
-    
+        font-size: 2.5rem;    
     }
     
     .about-icons .icons h3{
         font-size: 2rem;
-        color: black;
         padding-bottom:.3rem;
     }
     .about-icons .icons p{
-        font-size: 1rem;
-        color: black;
-    
+        font-size: 1rem;    
+    }
+    .about-icons .icons p a{
+        font-size: 1rem;    
     }
 
     .contact .logo{
@@ -136,7 +128,6 @@
         display: flex;
         justify-content: start;
         align-items: center;
-    
      }
     
      .contact .text i{
@@ -168,6 +159,10 @@
     }
 
     .about .about-text p {
+        font-size: 12px;
+    }
+
+    .about .about-text p a {
         font-size: 12px;
     }
 
@@ -212,7 +207,6 @@
 
     .main-home .home-text h3 {
         font-size: 17px;
-        color: #37680d;
         font-weight: 180;
         margin-bottom: 10px;
     }
@@ -257,6 +251,10 @@
         font-size: 10px;
     }
 
+    .about .about-text p a{
+        font-size: 10px;
+    }
+
     .about-icons{
         display: flex;
         justify-content: space-around;
@@ -264,16 +262,13 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-       
-
-
     }
     .about-icons .icons{
         width: 100%;
         height: auto;
         display: flex;
         align-items: center;
-        border-bottom: 1px solid black;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, .1) ;
     }
  
     .about-icons .icons i{
@@ -287,29 +282,23 @@
     
     .about-icons .icons h3{
         font-size: 2.2rem;
-        color: black;
         padding-bottom:.5rem;
         margin-left: 7px;
     }
     .about-icons .icons p{
         font-size: 1.4rem;
-        color: black;
         margin-left: 7px;
     
     }
 
 
     .categories .row .categories-text h3 {
-        font-size: 15px;
-        color: #37680d;
-        
+        font-size: 15px;        
     }
     
     .categories .row .categories-text p {
         margin-top: 1rem;
-        color:#232323;
-        font-size: 12px; 
-        
+        font-size: 12px;      
     }
      
 
@@ -337,7 +326,6 @@
 
     .main-home .home-text h3 {
         font-size: 14px;
-        color: #37680d;
         font-weight: 100;
         margin-bottom: 10px;
     }

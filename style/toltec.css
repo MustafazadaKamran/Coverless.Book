@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    transition: width none;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #e4e4e4;
+}
+
+html::-webkit-scrollbar {
+    background: transparent;
+}
+
+h2{
+    font-size: 22px;
+}
+p{
+    color:#444;
+    font-size: 14px;
+    font-family: serif;
+    line-height: 1.4;
+
+}
+h3{
+    font-size: 20px;
+    color: #444;
+}
+
+.btn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    color: #fff;
+    background: #37680d;
+    font-size: 1.7rem;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e4e4e4;
+}
+.main .hero{ 
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: auto;
+    background-color:snow;
+    align-items: center;
+    padding: 4%;
+}
+
+.main .hero .header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 2px solid #5fe4ba;
+}
+
+.main .hero .logo{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.main .hero .logo img{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+} 
+
+.main .hero .text{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+/* responsive */
+
+
+@media (max-width:470px) {
+
+
+
+    h2{
+        font-size: 18px;
+    }
+    p{
+        color:#444;
+        font-size: 11px;
+        font-family: serif;
+        line-height: 1.4;
+    
+    }
+    h3{
+        font-size: 16px;
+        color: #444;
+    }
+
+    .btn{
+
+        width: 80px;
+        height: 40px;
+        font-size: 1.4rem;
+
+    }
+}
