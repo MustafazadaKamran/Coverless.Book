@@ -194,6 +194,8 @@
     border-bottom:0.1rem solid white ;
     }
 
+  
+
 
     .main-home .home-text {
         width: 50%;
@@ -207,7 +209,7 @@
 
 
     .main-home .home-text h3 {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 180;
         margin-bottom: 10px;
     }
@@ -215,13 +217,14 @@
     .main-home .home-text h2 {
         font-size: 20px;
         width: 140px;
-        margin-top: 7px;
-        margin-bottom: 14px;
+        margin-top: 5px;
+        margin-bottom: 12px;
     }
 
     .main-home .home-text p {
         font-size: 10px;
         margin-bottom: 10px;
+        
     }
 
     .about{
@@ -249,11 +252,12 @@
     }
 
     .about .about-text p {
-        font-size: 10px;
+        font-size: 9px;
+        font-family: cursive;
     }
 
     .about .about-text p a{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .about-icons{
@@ -314,6 +318,13 @@
 
     .contact{
         margin-bottom: 6.5rem;
+    }
+
+    .swiper-button-next{
+        margin-right: -1rem;
+    }
+    .swiper-button-prev{
+        margin-left: -1rem;
     }
 }
 

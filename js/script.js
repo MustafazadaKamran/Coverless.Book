@@ -45,7 +45,7 @@ var swiper = new Swiper(".book-slider", {
       },
 
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         
       },
     },

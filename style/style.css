@@ -151,7 +151,7 @@ header .navbar .navmenu li a:hover {
     font-size: 33px;
     color: #37680d;
     font-weight: 550;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .main-home .home-text h2 {
@@ -159,13 +159,13 @@ header .navbar .navmenu li a:hover {
     width: 340px;
     margin-top: 10px;
     margin-bottom: 24px;
-    margin-left: 70px;
+    margin-left: 60px;
     color: #232323;
     font-family: serif;
 }
 
 .main-home .home-text p {
-    margin-left: 70px;
+    margin-left: 60px;
     font-size: 16px;
     color: #444;
     
@@ -184,6 +184,7 @@ header .navbar .navmenu li a:hover {
     height: auto;
     margin-bottom: 80px;
     overflow: hidden;
+    margin-right: 10px;
 }
 
 
@@ -244,13 +245,16 @@ header .navbar .navmenu li a:hover {
 
 .about .about-text h2 {
     font-size: 18px;
+    font-family: cursive;
+    margin-right: 10px;
 
 }
 
 .about .about-text p {
     color:#444;
     font-size: 16px;
-    font-family: serif;
+    font-family:cursive;
+    margin-right: 10px;
 
 }
 
