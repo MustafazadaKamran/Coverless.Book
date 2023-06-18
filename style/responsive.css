@@ -212,6 +212,7 @@
         font-size: 15px;
         font-weight: 180;
         margin-bottom: 10px;
+        
     }
 
     .main-home .home-text h2 {
@@ -224,7 +225,10 @@
     .main-home .home-text p {
         font-size: 10px;
         margin-bottom: 10px;
-        
+        font-family: serif;    
+    }
+    .main-home .home-img img{
+        margin-top: 6rem;
     }
 
     .about{
@@ -249,11 +253,12 @@
 
     .about .about-text h2 {
         font-size: 10px;
+        font-family: serif;
     }
 
     .about .about-text p {
         font-size: 9px;
-        font-family: cursive;
+        font-family: serif;
     }
 
     .about .about-text p a{
@@ -300,6 +305,10 @@
         margin-top: 1rem;
     }
 
+    .coverless-works .featured-sliders .box{
+        margin-left: -0.14rem;
+    }
+
 
     .categories .row .categories-text h3 {
         font-size: 15px;        
@@ -313,6 +322,9 @@
     .blog .text p{
         font-size: 1.3rem;
         color:#444;
+    }
+    .blog .blogs-slider .box{
+        margin-left: -0.14rem;
     }
      
 

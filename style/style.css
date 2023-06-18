@@ -161,13 +161,13 @@ header .navbar .navmenu li a:hover {
     margin-bottom: 24px;
     margin-left: 60px;
     color: #232323;
-    font-family: serif;
 }
 
 .main-home .home-text p {
     margin-left: 60px;
     font-size: 16px;
     color: #444;
+    
     
 }
 
@@ -245,23 +245,20 @@ header .navbar .navmenu li a:hover {
 
 .about .about-text h2 {
     font-size: 18px;
-    font-family: cursive;
     margin-right: 10px;
 
 }
 
 .about .about-text p {
     color:#444;
-    font-size: 16px;
-    font-family:cursive;
+    font-size: 14px;
     margin-right: 10px;
 
 }
 
 .about .about-text p a{
-   
-    font-size: 16px;
-    font-family: serif;
+    font-size: 14px;
+    
 }
 
 .about-icons {
@@ -298,7 +295,7 @@ header .navbar .navmenu li a:hover {
 .about-icons .icons p {
     font-size: 1.4rem;
     color: black;
-
+    font-family: serif;
 }
 
 
@@ -402,7 +399,7 @@ header .navbar .navmenu li a:hover {
     width: 25rem;
     height: 38rem;
     margin-top: 7rem;
-    margin-left: -0.1rem;
+    margin-left: -0.12rem;
     position: relative;
     overflow: hidden;
     border: 0.1rem solid rgba(0, 0, 0, .1) ;
@@ -495,7 +492,7 @@ header .navbar .navmenu li a:hover {
 .blog .blogs-slider .box{
     position: relative;
     margin-top: 5rem;
-    margin-left: -0.1rem;
+    margin-left: -0.11rem;
     border: 0.1rem solid rgba(0, 0, 0, .1) ;
     width: 20rem;
     height: 47rem;
